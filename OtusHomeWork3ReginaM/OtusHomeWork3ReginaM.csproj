@@ -43,18 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dtos\GuessDto.cs" />
     <Compile Include="Dtos\Range.cs" />
     <Compile Include="Dtos\AttemptCount.cs" />
     <Compile Include="Interfaces\IGetSecretNumberService.cs" />
     <Compile Include="Interfaces\IGetSettingsService.cs" />
     <Compile Include="Interfaces\IGuessingService.cs" />
     <Compile Include="Interfaces\IProcessResultService.cs" />
+    <Compile Include="Interfaces\IRegisterService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\GetSecretNumberService.cs" />
     <Compile Include="Services\GetSettingsService.cs" />
     <Compile Include="Services\GuessingService.cs" />
+    <Compile Include="Services\GuessingService2.cs" />
     <Compile Include="Services\ProcessResultService.cs" />
+    <Compile Include="Services\RegisterService.cs" />
+    <Compile Include="Services\SimpleContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

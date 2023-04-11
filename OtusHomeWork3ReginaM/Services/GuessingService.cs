@@ -6,7 +6,7 @@ namespace OtusHomeWork3ReginaM.Services
 {
     public class GuessingService : IGuessingService
     {
-        public bool TryGuess(AttemptCount attemptCount, Range range)
+        public virtual bool TryGuess(AttemptCount attemptCount, Range range)
         {
             var getSecretNumberService = new GetSecretNumberService();
 
